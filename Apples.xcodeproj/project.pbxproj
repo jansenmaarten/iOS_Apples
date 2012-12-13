@@ -17,8 +17,8 @@
 		FECD70AF167A034400B8064D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD70AE167A034400B8064D /* Default.png */; };
 		FECD70B1167A034400B8064D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD70B0167A034400B8064D /* Default@2x.png */; };
 		FECD70B3167A034400B8064D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD70B2167A034400B8064D /* Default-568h@2x.png */; };
-		FECD70F5167A0D8B00B8064D /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD70F4167A0D8B00B8064D /* AppleFactory.m */; };
-		FECD70F9167A0D9C00B8064D /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD70F8167A0D9C00B8064D /* Apple.m */; };
+		FECD711C167A140F00B8064D /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7119167A140F00B8064D /* Apple.m */; };
+		FECD711D167A140F00B8064D /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD711B167A140F00B8064D /* AppleFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +37,10 @@
 		FECD70AE167A034400B8064D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FECD70B0167A034400B8064D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FECD70B2167A034400B8064D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FECD70F3167A0D8B00B8064D /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
-		FECD70F4167A0D8B00B8064D /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
-		FECD70F7167A0D9C00B8064D /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
-		FECD70F8167A0D9C00B8064D /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		FECD7118167A140F00B8064D /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		FECD7119167A140F00B8064D /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		FECD711A167A140F00B8064D /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		FECD711B167A140F00B8064D /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +90,10 @@
 		FECD70A2167A034400B8064D /* Apples */ = {
 			isa = PBXGroup;
 			children = (
+				FECD7116167A13C700B8064D /* Classes */,
 				FECD70AB167A034400B8064D /* AppDelegate.h */,
 				FECD70AC167A034400B8064D /* AppDelegate.m */,
 				FECD70A3167A034400B8064D /* Supporting Files */,
-				FECD70F3167A0D8B00B8064D /* AppleFactory.h */,
-				FECD70F4167A0D8B00B8064D /* AppleFactory.m */,
-				FECD70F7167A0D9C00B8064D /* Apple.h */,
-				FECD70F8167A0D9C00B8064D /* Apple.m */,
 			);
 			path = Apples;
 			sourceTree = "<group>";
@@ -113,6 +110,17 @@
 				FECD70B2167A034400B8064D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECD7116167A13C700B8064D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FECD7118167A140F00B8064D /* Apple.h */,
+				FECD7119167A140F00B8064D /* Apple.m */,
+				FECD711A167A140F00B8064D /* AppleFactory.h */,
+				FECD711B167A140F00B8064D /* AppleFactory.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +208,8 @@
 			files = (
 				FECD70A9167A034400B8064D /* main.m in Sources */,
 				FECD70AD167A034400B8064D /* AppDelegate.m in Sources */,
-				FECD70F5167A0D8B00B8064D /* AppleFactory.m in Sources */,
-				FECD70F9167A0D9C00B8064D /* Apple.m in Sources */,
+				FECD711C167A140F00B8064D /* Apple.m in Sources */,
+				FECD711D167A140F00B8064D /* AppleFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
