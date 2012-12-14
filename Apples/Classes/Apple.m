@@ -10,4 +10,8 @@
 
 @implementation Apple
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Apple with color: %@ and weight: %f", self.color, self.averageWeight];
+}
+
 @end
