@@ -1,5 +1,5 @@
 # Ignore CocoaPods generated files
 pods/
 Podfile.lock
-Mega.xcworkspace
+Apples.xcworkspace
 
