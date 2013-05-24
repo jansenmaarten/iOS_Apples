@@ -19,6 +19,7 @@
 		FECD70B3167A034400B8064D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD70B2167A034400B8064D /* Default-568h@2x.png */; };
 		FECD711C167A140F00B8064D /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7119167A140F00B8064D /* Apple.m */; };
 		FECD711D167A140F00B8064D /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD711B167A140F00B8064D /* AppleFactory.m */; };
+		FEEDA8C3174F7EA2004ECBC1 /* ApplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDA8C2174F7EA2004ECBC1 /* ApplesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		FECD7119167A140F00B8064D /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		FECD711A167A140F00B8064D /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
 		FECD711B167A140F00B8064D /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		FEEDA8C1174F7EA2004ECBC1 /* ApplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplesViewController.h; sourceTree = "<group>"; };
+		FEEDA8C2174F7EA2004ECBC1 /* ApplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				FECD7116167A13C700B8064D /* Classes */,
 				FECD70AB167A034400B8064D /* AppDelegate.h */,
 				FECD70AC167A034400B8064D /* AppDelegate.m */,
+				FEEDA8C1174F7EA2004ECBC1 /* ApplesViewController.h */,
+				FEEDA8C2174F7EA2004ECBC1 /* ApplesViewController.m */,
 				FECD70A3167A034400B8064D /* Supporting Files */,
 			);
 			path = Apples;
@@ -210,6 +215,7 @@
 				FECD70AD167A034400B8064D /* AppDelegate.m in Sources */,
 				FECD711C167A140F00B8064D /* Apple.m in Sources */,
 				FECD711D167A140F00B8064D /* AppleFactory.m in Sources */,
+				FEEDA8C3174F7EA2004ECBC1 /* ApplesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@
 @implementation Apple
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Apple with color: %@ and weight: %f", self.color, self.averageWeight];
+    return [NSString stringWithFormat:@"Apple with color: %@ and weight: %0.2f", self.color, self.averageWeight];
 }
 
 @end

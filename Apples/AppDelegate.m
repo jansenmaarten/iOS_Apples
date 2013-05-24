@@ -7,13 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "ApplesViewController.h"
+
+@interface AppDelegate ()
+
+// Properties
+@property (nonatomic, strong) UIViewController *rootViewController;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    ApplesViewController *applesViewController = [[ApplesViewController alloc] init];
+    
+    self.window.rootViewController = applesViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
